@@ -12,7 +12,6 @@ body {
 /* Contenedor principal */
 .container {
     background-color: #ffffff;
-    padding: 20px;
     height: 60%;
     width: 60%;
     border-radius: 15px;
@@ -25,8 +24,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
     padding: 5%;
-    margin-top: 5%;
-    gap: 10%; /* Espaciado entre las celdas */
+    gap: 5%; /* Espaciado entre las celdas */
 }
 
 /* Estilo de los elementos del grid */
@@ -36,7 +34,7 @@ body {
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10%;
     display: flex;
     justify-content: center;
